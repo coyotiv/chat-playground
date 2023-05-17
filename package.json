@@ -1,0 +1,40 @@
+{
+  "name": "chat-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "nodemon",
+    "start": "node src/index.js",
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coyotiv/chat-playground.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/coyotiv/chat-playground/issues"
+  },
+  "homepage": "https://github.com/coyotiv/chat-playground#readme",
+  "dependencies": {
+    "blessed": "^0.1.81",
+    "dotenv": "^16.0.3",
+    "gpt-3-encoder": "^1.1.4",
+    "openai": "^4.4.0",
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "jest": "^29.6.4",
+    "nodemon": "^3.0.1"
+  },
+  "jest": {
+    "collectCoverage": true,
+    "coverageReporters": [
+      "text",
+      "lcov"
+    ]
+  }
+}
